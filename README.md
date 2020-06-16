@@ -1,4 +1,4 @@
-# anonymous-auditing-dpsgd
+# auditing-dpsgd
 Code for "Auditing Differentially Private Machine Learning: How Private is Private SGD?": https://arxiv.org/abs/2006.07709.
 
 To reproduce results, first modify code/auditing_args.py to set the appropriate variables, based on the examples from code/args/. For example, getting the ClipBKD plot from Figure 1a uses the following setting:
