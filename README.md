@@ -51,7 +51,7 @@ Then, run
 
     python code/exp_run.py
 
-This will run a lot of experiments, each of which calls `audit.py`. This will take a while, over many trials, using the default 6 poisoning rates:
+This will run a lot of experiments, each of which calls `audit.py`. This will take a while. It runs this many trials, using the default 6 poisoning rates:
 
     6*len(args["pois_ct"])*len(args["clip_norm"])*len(args["init_mult"])*(args["trials"][1]-args["trials"][0])
 
