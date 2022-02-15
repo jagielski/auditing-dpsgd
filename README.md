@@ -1,6 +1,6 @@
 # auditing-dpsgd
 
-Code for [Auditing Differentially Private Machine Learning: How Private is Private SGD?](https://arxiv.org/abs/2006.07709).
+Code for [Auditing Differentially Private Machine Learning: How Private is Private SGD?](https://arxiv.org/abs/2006.07709). There is [another implementation](https://github.com/tensorflow/privacy/tree/master/research/audit_2020) in the TensorFlow Privacy repo which is simpler to run than this implementation but harder to parallelize.
 
 To reproduce results, first modify `code/auditing_args.py` to set the appropriate variables, based on the examples from `code/args/`. For example, getting the _ClipBKD_ plot from Figure 1a uses the following setting:
 
